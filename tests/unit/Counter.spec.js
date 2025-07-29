@@ -1,6 +1,6 @@
 import { shallowMount, createLocalVue} from '@vue/test-utils'
 import Vuex from 'vuex'
-import Counter from '@/components/Counter.vue'
+import Counter from '@/components/Counter_changelog.vue'
 // `import Counter from '@/components/Counter.vue` is equivalent to `../src/components/Counter.vue` be config in vue.config.js
 
 const localVue = createLocalVue()

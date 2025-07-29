@@ -49,3 +49,11 @@ Then run
 ```bash
 npm install eslint babel-eslint eslint-plugin-vue --save-dev
 ```
+
+
+## test (use jest)
+
+install jest
+```bash
+vue add unit-jest
+```

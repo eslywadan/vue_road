@@ -55,5 +55,9 @@ npm install eslint babel-eslint eslint-plugin-vue --save-dev
 
 install jest
 ```bash
+npm install --save-dev @vue/cli-plugin-unit-jest
+```
+
+```bash
 vue add unit-jest
 ```

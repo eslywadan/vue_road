@@ -36,9 +36,9 @@ describe('Counter.vue', () => {
         expect(actions.increment).toHaveBeenCalled()
     })
 
-    it('call descrement on - click', async () => {
+    it('call decrement on - click', async () => {
         const wrapper = shallowMount(Counter, { store, localVue})
         await wrapper.find('button:last-of-type').trigger('click')
-        expect(actions.descrement).toHaveBeenCalled()
+        expect(actions.decrement).toHaveBeenCalled()
     })
 })

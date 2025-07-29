@@ -2,6 +2,8 @@
     <div>
         <h1>Count: {{ count }}</h1>
         <button @click="increment">Increment</button>
+        <button @click="decrement">Decrement</button>
+        
 
         <h2>Chagnelog:</h2>
         <ul>
@@ -24,7 +26,10 @@ export default {
     },
     methods: {
         increment() {
-            this.$store.commit('increment')
+            this.$store.dispatch('increment')
+        },
+        decrement() {
+            this.$store.dispatch('decrement')
         }
     }
 }

@@ -5,11 +5,13 @@
 </template>
 
 <script>
-import Counter from './components/Counter.vue'
+import Counter from './components/Counter_changelog.vue'
+import HelloWorld from './components/HelloWorld.vue';
 export default {
     name: 'App',
     components: {
-        Counter
+        CounterChangeLog, 
+        HelloWorld
     }
 }
 </script>
